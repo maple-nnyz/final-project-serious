@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.eggs/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+pytestdebug.log
+
+# Virtual env
+.venv/
+venv/
+ENV/
+env/
+
+# Env / Secrets
+.env
+.env.*
+secrets/
+*.secret
+
+# Build / Dist
+build/
+dist/
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+
+# Logs / Temp
+*.log
+logs/
+tmp/
+temp/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# Alembic (ถ้าใช้)
+# แนะนำ: **อย่า** ignore ไฟล์ migration (เก็บไว้ใน repo เพื่อ reproducible deploy)
+# แต่กันไฟล์ cache ที่ไม่จำเป็น
+alembic/versions/__pycache__/

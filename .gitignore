@@ -1,0 +1,80 @@
+# ---- OS / Editor ----
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.code-workspace
+
+# ---- Env / Secrets (สำคัญมาก) ----
+.env
+.env.*
+.env.local
+.env.*.local
+*.secret
+secrets/
+**/secrets/
+**/.env
+**/.env.*
+
+# ---- Logs ----
+*.log
+logs/
+**/logs/
+
+# ---- Node tools (เผื่อมีสคริปต์ที่ราก) ----
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ---- Package managers cache ----
+.pnp/
+.pnp.js
+.npm/
+.yarn/
+.pnpm-store/
+
+# ---- Coverage / Reports ----
+coverage/
+**/coverage/
+*.lcov
+coverage-final.json
+report/
+reports/
+
+# ---- Docker / Compose data ----
+# ถ้าคุณ bind-mount โฟลเดอร์ข้อมูล
+db_data/
+pgdata/
+data/
+tmp/
+run/
+
+# ---- Misc build cache ----
+.cache/
+.tmp/
+temp/
+
+# ---- Jupyter (ถ้าใช้ notebook สำหรับ ML) ----
+.ipynb_checkpoints/
+.profile_default/
+*.nbconvert.ipynb
+
+# ---- Binary / Large artifacts ----
+*.pyc
+*.pyo
+*.pyd
+*.so
+*.dll
+*.exe
+*.bin
+*.dat
+
+# ---- OS-specific ----
+ehthumbs.db
+$RECYCLE.BIN/
+
+# ---- Keep empty folders with .gitkeep ----
+# (สร้างไฟล์ .gitkeep เองในโฟลเดอร์ที่อยากให้เว้นไว้)
