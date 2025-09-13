@@ -1,0 +1,33 @@
+# Node
+node_modules/
+dist/
+build/
+
+# Vite cache
+.vite/
+**/.vite/
+node_modules/.vite/
+
+# Tooling
+.eslintcache
+.stylelintcache
+.turbo/
+.storybook-out/
+.storybook-cache/
+
+# Env (อย่าขึ้นโทเคน)
+.env
+.env.*
+.env.local
+.env.*.local
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Editor
+.vscode/
+.idea/
